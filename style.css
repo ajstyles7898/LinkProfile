@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.center-box {
+    width: 360px; /* Increased width of the center box */
+    height: 600px;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.profile-image {
+    width: 80px; /* Reduced size of the image */
+    height: 80px; /* Keep it proportional */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.5rem; /* Same size as h2 */
+    font-weight: bold;
+    margin: 0;
+}
+
+h3 {
+    font-size: 0.9rem; /* Made the yellow text smaller */
+    margin: 10px 0;
+    color: rgb(245, 245, 78); /* Light yellow color */
+}
+
+p {
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+    width: 100%;
+}
+
+button {
+    width: calc(100% - 40px); /* Leave margin on both sides */
+    margin: 10px 20px;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: bold; /* Made button text bold */
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 40%);
+}
